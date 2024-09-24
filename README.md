@@ -1,3 +1,4 @@
 # commodities
 
-teste de primeiro commit
+estamos ao vivo
+bora
