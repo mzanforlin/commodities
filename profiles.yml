@@ -1,0 +1,12 @@
+dw_sales:
+  outputs:
+    dev:
+      dbname: dbsales_8jbe
+      host: dpg-crpdmpaj1k6c73c4cc40-a.oregon-postgres.render.com
+      pass: I1rIxgFpjArlicJ4OW96gaBsfMQbfz9k
+      port: 5432
+      schema: public
+      threads: 1
+      type: postgres
+      user: postgres123
+  target: dev
