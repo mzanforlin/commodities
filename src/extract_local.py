@@ -25,7 +25,7 @@ engine = create_engine(DATABASE_URL)
 
 # pegar a cotacao dos meus ativos
 
-def buscar_dados_commodities(simbolo, periodo='2y', intervalo='1d'):
+def buscar_dados_commodities(simbolo, periodo='5y', intervalo='1d'):
     ticker = yf.Ticker(simbolo)
     dados = ticker.history(period=periodo, interval=intervalo)[['Close']]
     dados['simbolo'] = simbolo
